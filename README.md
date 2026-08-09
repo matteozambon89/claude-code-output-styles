@@ -36,16 +36,16 @@ cp claude-code-output-styles/output-styles/*.md ~/.claude/output-styles/
 Inside Claude Code:
 
 ```
-/output-style bluf
+/config outputStyle=bluf
 ```
 
-Or select it interactively:
+Or select it interactively via `/config` → **Output style**.
 
-```
-/output-style
-```
+The change takes effect on your next session or after `/clear` — output style is baked into the system prompt at session start, not applied mid-turn.
 
-Switch back anytime with `/output-style default` (or pick another style the same way).
+Switch back anytime with `/config outputStyle=default` (or pick another style the same way).
+
+> Note: the older standalone `/output-style` command was deprecated in Claude Code v2.1.73 and removed in v2.1.91. Use `/config` instead.
 
 ## Writing your own
 
