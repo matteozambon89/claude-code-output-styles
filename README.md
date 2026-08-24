@@ -6,9 +6,9 @@ Custom [output styles](https://docs.claude.com/en/docs/claude-code/output-styles
 
 ### BLUF (`output-styles/bluf.md`)
 
-Bottom Line Up Front. Every response leads with the answer, decision, or required action in 1-2 sentences — before any explanation, research narration, or process detail. Supporting points (if any) follow, most important first, one topic per bullet. Active voice throughout; every response ends with the next action or decision needed.
+Bottom Line Up Front. Every response is one sentence (two max) — the answer, decision, or required action. A body is added only when the user cannot act without it, and then at most 3 one-sentence bullets. Active voice; no recap, preamble, or research narration.
 
-Good fit if you want Claude to read like a status update, not an essay.
+Good fit if you want Claude short by default, not an essay.
 
 ## Install
 
