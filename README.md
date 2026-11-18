@@ -6,9 +6,9 @@ Custom [output styles](https://docs.claude.com/en/docs/claude-code/output-styles
 
 ### BLUF (`output-styles/bluf.md`)
 
-Bottom Line Up Front. Every response is one sentence (two max) — the answer, decision, or required action. A body is added only when the user cannot act without it, and then at most 3 one-sentence bullets. Active voice; no recap, preamble, or research narration.
+Bottom line first: the answer or the decision, in one or two sentences. Then a table, a Mermaid diagram, or a short code snippet when structure is the point, optional expandable points, categorized open questions, and a Next line that names **You** or **I**. An alignment waits for an ok.
 
-Good fit if you want Claude short by default, not an essay.
+Good fit when you want the answer first and the rest easy to scan.
 
 ## Install
 
